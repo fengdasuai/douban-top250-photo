@@ -44,7 +44,7 @@ def download_image(url,save_path, filename):
 def main():
     url = DOWNLOAD_URL
     imge_urls=[]
-    save_directory = 'C:/Users/冯恒怡/Pictures/豆瓣250电影封面'
+    save_directory = '' #填入你想保存文件的文件夹路径
 
     while url:
         data = download_page(url)
